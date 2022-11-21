@@ -1,0 +1,30 @@
+:root{
+    --color-brand-1: #FD377E;
+    --color-brand-1-hover: #E34981;
+    --grey-100: #212529;
+    --grey-50: #868E96;
+    --grey-1: #F8F9FA;
+    --grey-2: #E9ECEF;
+    --grey-3: #343A40;
+    --white-fixed: #FFFFFF;
+    --green-100: #03B898;
+
+    --font-size-0: 2.375rem;
+    --font-size-1: 1.375rem;
+    --font-size-2: 1rem;
+    --font-size-3: 0.875rem;
+    --font-size-4: 0.75rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
