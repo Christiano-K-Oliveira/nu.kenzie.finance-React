@@ -1,0 +1,81 @@
+.menu_inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey-100);
+    width: 100vw;
+    height: 100vh;
+}
+.menu_inicio .secao_inicio h1{
+    font-size: 1.65rem;
+    color: var(--white-fixed);
+    font-weight: 800;
+}
+.menu_inicio .secao_inicio h1 strong{
+    color: var(--color-brand-1);
+    margin-right: 6px;
+}
+.menu_inicio .secao_inicio p{
+    font-size: var(--font-size-0);
+    color: var(--white-fixed);
+    font-weight: 800;
+    width: 347px;
+    margin-top: 5%;
+}
+.menu_inicio .secao_inicio span{
+    display: flex;
+    font-size: var(--font-size-3);
+    color: var(--white-fixed);
+    margin-top: 6%;
+}
+.menu_inicio .secao_inicio button{
+    margin-top: 8%;
+    border: none;
+    color: var(--white-fixed);
+    background-color: var(--color-brand-1);
+    border-radius: 8px;
+    font-size: var(--font-size-2);
+    font-weight: 500;
+    cursor: pointer;
+    width: 250px;
+    padding: 12px 0;
+    transition: 0.2s ease;
+}
+.menu_inicio .secao_inicio button:hover{
+    background-color: var(--color-brand-1-hover);
+    transition: 0.2s ease;
+}
+
+
+
+
+
+.menu_home{
+    margin-top: 1%;
+    background-color: var(--white-fixed);
+}
+.menu_home .container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 70%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

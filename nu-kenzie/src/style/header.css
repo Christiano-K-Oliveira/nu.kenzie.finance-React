@@ -1,0 +1,57 @@
+header{
+    background: #F8F9FA;
+    box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.25);
+    padding: 20px 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+header .container h1{
+    color: var(--black-100);
+    font-weight: 800;
+}
+header .container h1 strong{
+    color: var(--color-brand-1);
+    margin-right: 8px;
+}
+header .container button{
+    background-color: var(--grey-2);
+    font-size: var(--font-size-3);
+    font-weight: 600;
+    color: var(--grey-3);
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+header .container button:hover{
+    background-color: var(--color-brand-1);
+    color: var(--white-fixed);
+    transition: 0.2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

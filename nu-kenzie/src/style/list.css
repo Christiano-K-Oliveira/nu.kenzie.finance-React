@@ -1,0 +1,120 @@
+.secao_lista_financeira{
+    margin-left: 8%;
+}
+.secao_lista_financeira .resumo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secao_lista_financeira .resumo h2{
+    font-size: var(--font-size-2);
+    color: var(--grey-100);
+    font-weight: 700;
+}
+.secao_lista_financeira .resumo .box_btns{
+    display: flex;
+    gap: 10px;
+}
+.secao_lista_financeira .resumo .box_btns button{
+    border: none;
+    color: var(--grey-3);
+    background-color: var(--grey-2);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: var(--font-size-3);
+    transition: 0.2s ease;
+}
+.secao_lista_financeira .resumo .box_btns button:hover{
+    background-color: var(--color-brand-1);
+    color: var(--white-fixed);
+    transition: 0.2s ease;
+}
+
+.secao_lista_financeira{
+    width: 100%;
+}
+.secao_lista_financeira .box_lista h2{
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: var(--font-size-1);
+    color: var(--grey-3);
+}
+.secao_lista_financeira div ul{
+    list-style: none;
+    margin-top: 4%;
+}
+.secao_lista_financeira div ul li{
+    margin-bottom: 5%;
+    background-color: var(--grey-1);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s ease;
+}
+.secao_lista_financeira div ul li .box_1 h3{
+    font-size: var(--font-size-2);
+    font-weight: 700;
+    color: var(--grey-100);
+}
+.secao_lista_financeira div ul li .box_1 > span{
+    display: flex;
+    color: var(--grey-3);
+    font-size: var(--font-size-4);
+    margin-top: 15%;
+}
+.secao_lista_financeira div ul li .box_2{
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+.secao_lista_financeira div ul li .box_2 > span{
+    color: var(--grey-100);
+    font-size: var(--font-size-3);
+}
+.secao_lista_financeira div ul li .box_2 > button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: var(--grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.secao_lista_financeira div ul li .box_2 > button:hover{
+    background-color: var(--color-brand-1);
+    transition: 0.2s ease;
+    color: var(--white-fixed);
+}
+.secao_lista_financeira div ul li:hover{
+    background-color: var(--white-fixed);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.38);
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
